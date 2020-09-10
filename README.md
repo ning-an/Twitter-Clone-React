@@ -9,13 +9,14 @@ React Twitter clone project which allows users to follow friends, view/like/retw
 1. Navigate to the server directory `cd server`
 2. Install the required packages `yarn install`
 3. Start server `yarn start:server`
+
 :star: You can find instructions for running the server application in `serverAPI_/DOCS.md`
 
 ### Frontend
 
 1. Navigate to the client directory `cd client`
 2. Install the required packages `yarn install`
-3. Start server `yarn start`
+3. Start: `yarn start`
 
 ## Technologies
 
