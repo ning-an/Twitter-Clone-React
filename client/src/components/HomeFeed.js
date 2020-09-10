@@ -86,7 +86,7 @@ const Wrapper = styled.div`
   position: relative;
   border: solid lightgrey 1px;
   box-shadow: 0 8px 1px 1px lightgrey;
-  width: 100%;
+  width: calc(100% - 260px);
   min-height: 100vh;
   /* overflow: hidden; */
 

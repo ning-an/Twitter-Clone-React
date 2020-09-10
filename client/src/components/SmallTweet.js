@@ -93,6 +93,13 @@ const Wrapper = styled.div`
     border-radius: 5px;
     /* transform: scale(1.01); */
   }
+`;
+
+const SubWrapper = styled.div`
+  display: flex;
+  align-items: flex-start;
+  margin-top: 10px;
+  width: 90%;
 
   div {
     width: 90%;
@@ -102,13 +109,9 @@ const Wrapper = styled.div`
     margin-top: 10px;
     margin-bottom: 10px;
     width: 95%;
+    word-break: break-all;
+    line-height: 1.5em;
   }
-`;
-
-const SubWrapper = styled.div`
-  display: flex;
-  align-items: flex-start;
-  margin-top: 10px;
 `;
 
 const Avatar = styled(Image)`
